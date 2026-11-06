@@ -106,14 +106,14 @@ export default function App() {
             </TouchableOpacity>
           ))}
         </View>
-        <ScrollView style={{ width: '50%' }}>
+        <ScrollView style={{ width: '100%' }}>
           {filtered.map(item => (
             <TouchableOpacity key={item.id} style={styles.card} onPress={() => { setSelected(item); setScreen('detail'); }}>
               <View>
                 <Text style={styles.cardName}>{item.name}</Text>
                 <Text style={styles.cardType}>{item.type}</Text>
               </View>
-              <Text style={styles.cardPrice}>R {item.price}</Text>
+              <Text style={styles.cardtag}>R {item.price}</Text>
             </TouchableOpacity>
           ))}
         </ScrollView>
