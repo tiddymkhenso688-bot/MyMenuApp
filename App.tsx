@@ -148,7 +148,7 @@ export default function App() {
     <View style={styles.container}>
       <TouchableOpacity onPress={() => setScreen(screen === 'add' ? 'menu' : 'detail')}><Text style={styles.back}>← {screen === 'add' ? 'Add New Dish' : 'Edit dish'}</Text></TouchableOpacity>
       <View style={styles.formTop}>
-        <View style={styles.imagebig}><Text>Image</Text></View>
+        <View style={styles.imageSmall}><Text>Image</Text></View>
         <View style={{ flex: 1, gap: 10 }}>
           <TextInput style={styles.input} placeholder="Enter dish name" placeholderTextColor="#b0c4de" value={name} onChangeText={setName} />
           <TextInput style={styles.input} placeholder="Enter price" placeholderTextColor="#b0c4de" keyboardType="numeric" value={price} onChangeText={setPrice} />
