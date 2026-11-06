@@ -203,7 +203,7 @@ const styles = StyleSheet.create({
   typeBtn: { padding: 8, borderWidth: 1, borderColor: '#fff', borderRadius: 8 },
   typeActive: { backgroundColor: '#fff' },
   saveBtn: { backgroundColor: '#C0C0C0', paddingHorizontal: 30, paddingVertical: 12, borderRadius: 20 },
-  cancelBtn: { backgroundColor: '#fff', paddingHorizontal: 30, paddingVertical: 12, borderRadius: 20 },
+  cancelBtn: { backgroundColor: 'pink', paddingHorizontal: 30, paddingVertical: 12, borderRadius: 20 },
   modalContainer: { flex: 1, backgroundColor: '#fff', justifyContent: 'center', alignItems: 'center', padding: 20 },
   modalBox: { width: '90%', borderWidth: 2, borderColor: '#000', padding: 20, alignItems: 'center', borderRadius: 8 },
   questionCircle: { width: 120, height: 80, borderWidth: 2, borderColor: '#000', borderRadius: 60, justifyContent: 'center', alignItems: 'center', marginBottom: 10 },
