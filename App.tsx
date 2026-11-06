@@ -113,7 +113,7 @@ export default function App() {
                 <Text style={styles.cardName}>{item.name}</Text>
                 <Text style={styles.cardType}>{item.type}</Text>
               </View>
-              <Text style={styles.cardtag}>R {item.price}</Text>
+              <Text style={styles.cardPrice}>R {item.price}</Text>
             </TouchableOpacity>
           ))}
         </ScrollView>
